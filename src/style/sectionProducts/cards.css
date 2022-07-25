@@ -1,0 +1,35 @@
+#cards-container{
+    width: 835px;
+}
+#description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#description #title-description{
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 0.9em;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+#description #text-description{
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 1.06em;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+#link{
+    color: #000000;
+    text-decoration: none;
+}
+@media (max-width: 688px){
+    #cards-container{
+        width: 100vw;
+        overflow: hidden;
+    }
+    #cards-container card.Img{
+        width: 100vw;
+    }
+}

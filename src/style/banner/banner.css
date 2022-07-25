@@ -1,0 +1,33 @@
+#banner{
+    background-color: #000000;
+    color: #ffffff;
+    height: 13.5em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: solid 0.001em #ffffff;
+    justify-content: center;
+}
+.banner-text{
+    margin-left: 10vw;
+}
+#banner h3{
+    font-size: 2.25em;
+    font-family: 'Public Sans';
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.3px;
+}
+#banner p{
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+    width: 476px;
+}
+@media (max-width: 688px){
+    #banner p{
+        width: 310px;
+    }
+}

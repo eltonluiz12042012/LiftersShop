@@ -1,0 +1,179 @@
+/* Container total */
+#sectionContainer{
+    background-color: #F5F5F5;
+}
+/* Filters */
+#filter-container{
+    display: flex;
+    margin-left: 9vw;
+}
+#filter-container h3{
+    font-size: 1.37em;
+    line-height: 30px;
+    letter-spacing: -0.55px;
+    font-family: 'Public Sans';
+    font-weight: 600;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+#filter-container button{
+    color: #C4C4C4;
+    background-color: #F5F5F5;
+    font-size: 'Public Sans';
+    font-weight: 400;
+    margin-top: 1.5em;
+    border: none;
+}
+/* Categories */
+#categories-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 9vw;
+}
+#categories-container h4{
+    font-family: 'Public Sans';
+    font-size: 0.87em;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+}
+#categories-container h5{
+    font-family: 'Public Sans';
+    font-size: 0.87em;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+}
+/* List 1 */
+#list1-container{
+    height: 12.5em;
+}
+#list1-container ul{
+    margin-left: 7vw;
+    list-style: none;
+    height: 12.5em;
+    grid-area: list1;
+}
+#list1-container ul li{
+    display: flex;
+    align-items: center;
+    font-size: 0.81em;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.4px;
+    padding: 5px 0;
+}
+#list1-container ul li input{
+    margin-right: 12px;
+}
+/* List 2 */
+#list2-container h4{
+    font-family: 'Public Sans';
+    font-size: 0.87em;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    margin-left: 9vw;
+}
+#list2-container ul{
+    margin-left: 7vw;
+    width: 157px;
+    height: 59px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2em 2em 2em 2em 2em;
+}
+#list2-container ul li button{
+    width: 25px;
+    height: 25px;
+    border: solid 0.1em #000000;
+    border-radius: 50%;
+    grid-area: list2;
+}
+/* Section Products */
+#section-products-container{
+    grid-area: products;
+}
+/* Grid */
+#grid{
+    display: grid;
+    grid-template-areas: "list1 products" "list1 products" "list2 products";
+}
+/* Buttons */
+#btn-1{
+    background-color: #DF9167;
+}
+#btn-2{
+    background-color: #7B61FF;
+}
+#btn-3{
+    background-color: #219653;
+}
+#btn-4{
+    background-color: #2F80ED;
+}
+#btn-5{
+    background-color: #EB5757;
+}
+#btn-6{
+    background-color: #56CCF2;
+}
+#btn-7{
+    background-color: #4F4F4F;
+}
+#btn-8{
+    background-color: #BB6BD9;
+}
+#btn-9{
+    background-color: #F2F2F2;
+}
+#btn-10{
+    background-color: #6FCF97;
+}
+@media (max-width: 688px){
+    #filter-container{
+        margin: 0.5em;
+    }
+    #categories-container{
+        margin-left: 0.5em;
+    }
+    #grid{
+        display: flex;
+        flex-direction: column;
+    }
+    #categories-container h5{
+        display: none;
+    }
+    #list1-container{
+        height:90px;
+    }
+    #list1-container ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        height: 60px;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    #list1-container ul li{
+        padding-right: 0.4em;
+    }
+    #list2-container{
+        height: 100px;
+    }
+    #list2-container ul{
+        display: flex;
+        flex-direction: row;
+        margin: 0.5em;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    #list2-container ul li{
+        padding: 0.2em;
+    }
+    #list2-container h4{
+        margin-left: 0.5em;
+    }
+}

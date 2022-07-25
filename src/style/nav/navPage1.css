@@ -1,0 +1,48 @@
+/* First Container */
+#nav-container{
+    height: 3em;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+}
+/* Container Itens */
+.nav-itensContainer ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-itensContainer ul li{
+    color: #ffffff;
+    padding: 0.5em;
+    list-style: none;
+}
+.nav-itensContainer ul li a{
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+/* Lifters Shop */
+.nav-itensContainer #l-shop{
+    color: #ffffff;
+    font-size: 1.25em;
+    font-family: 'Inter';
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+/* Shop Stories About  */
+.nav-itensContainer .i-nav{
+    color: #ffffff;
+    font-size: 1.06em;
+    font-family: 'Inter';
+    font-weight: 400;
+    letter-spacing: -0.6px;
+}
+/* Search */
+.nav-itensContainer .i-search{
+    padding: 0;
+}
+.nav-itensContainer .i-search #search{
+    background-color: #000000;
+    border: none;
+    color: #C0C0C0;
+}

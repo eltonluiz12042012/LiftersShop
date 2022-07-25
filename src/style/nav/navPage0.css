@@ -1,0 +1,16 @@
+#nav0-container{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    height: 3.75em;
+}
+#lifters-container{
+    margin-left: 10vw;
+}
+#lifters-container h1{
+    color: #ffffff;
+    font-size: 1.25em;
+    font-family: 'Inter';
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
