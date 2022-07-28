@@ -7,7 +7,7 @@ const Routers = () => {
     return(
         <Routes>
             <Route exact path="/" element={<Page0 />}/>
-            <Route exact path="/product" element={<Page1 />} />
+            <Route exact path="/product/:id" element={<Page1 />} />
         </Routes>
     )
 };

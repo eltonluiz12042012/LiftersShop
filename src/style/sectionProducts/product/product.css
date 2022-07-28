@@ -64,6 +64,7 @@
 /* Product size */
 #product-size ul{
     display: flex;
+    flex-direction: row;
     padding-left: 0;
 }
 #product-size ul li{
@@ -76,12 +77,12 @@
     border: solid 0.01em #000000;
 }
 /* Btn back */
-#btn-back{
+.btn-back{
     height: 140px;
     display: flex;
     align-items: flex-end;
 }
-#btn-back button{
+.btn-back button{
     color: #ffffff;
     width: 151px;
     height: 50px;

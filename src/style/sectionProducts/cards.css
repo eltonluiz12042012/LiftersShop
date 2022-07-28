@@ -1,35 +1,45 @@
-#cards-container{
-    width: 835px;
+.card-container{
+    width: 195px;
+    margin: 0 0.5em;
 }
-#description{
+.card-image{
+    width: 195px;
+    height: 195px;
+}
+.card-description{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 195px;
+    height: 46px;
+    color: #000000;
+
 }
-#description #title-description{
+.card-description .title-description{
     font-family: 'Public Sans';
     font-weight: 700;
     font-size: 0.9em;
     line-height: 28px;
     letter-spacing: -0.4px;
 }
-#description #text-description{
+.card-description .size-description{
     font-family: 'Public Sans';
     font-weight: 400;
     font-size: 1.06em;
     line-height: 28px;
     letter-spacing: -0.4px;
+    margin-right: 0.2em;
 }
 #link{
     color: #000000;
     text-decoration: none;
 }
 @media (max-width: 688px){
-    #cards-container{
+    .card-image{
         width: 100vw;
-        overflow: hidden;
+        height: 360px;
     }
-    #cards-container card.Img{
+    .card-description{
         width: 100vw;
     }
 }
